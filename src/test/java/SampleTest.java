@@ -3,6 +3,7 @@ import org.openqa.selenium.chrome.*;
 //from selenium.webdriver.chrome.service import Service;
 import org.openqa.selenium.WebDriver.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.testng.annotations.*;
 
 
 public class SampleTest {
@@ -10,7 +11,8 @@ public class SampleTest {
 
      
 
-    public static void main(String[] args) {
+    @Test
+    public static void LoginTest(){
 
 //        from selenium import webdriver
 //        from selenium.webdriver.chrome.service import Service service = Service()
